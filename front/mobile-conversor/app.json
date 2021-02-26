@@ -1,0 +1,12 @@
+{
+  "name": "mobile-conversor",
+  "displayName": "mobile-conversor",
+  "expo": {
+    "name": "mobile-conversor",
+    "slug": "mobile-conversor",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -4,7 +4,6 @@ const axiosInstance = axios.create({
 });
 
 async function convertTo(code, value) {
-  console.log(code, value, "aqui");
   const response = await axiosInstance.get("/json/all");
   if (response && code) {
     return {

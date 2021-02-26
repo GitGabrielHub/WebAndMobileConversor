@@ -14,7 +14,6 @@ async function convertTo(req, res) {
 async function allCurrencies(req, res) {
   try {
     const response = await conversor.allCurrencies();
-    console.log("requisição");
     res.json({ data: response });
   } catch (e) {
     console.log(e);
